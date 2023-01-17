@@ -82,7 +82,7 @@ const App = () => {
       <img src="todo.png" alt="Todo Img" />
       <h3>Add Your List Here✌️</h3>
       <form className="form">
-        <div className="">
+        <div>
           <input
             type="text"
             placeholder="✍️ Add Item"
