@@ -1,0 +1,31 @@
+.todoitem{
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(133, 3, 254);
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.todoitem:hover{
+    background-color: #fff;
+    color: #000;
+}
+.icons{
+    font-size: 22px;
+}
+.delBtn,.updateBtn{
+    cursor: pointer;
+    margin-left: 15px;
+}
+.delBtn:hover{
+    color: red;
+}
+.updateBtn:hover{
+    color: #00f853;
+}
+.alter{
+    color: #fff;
+    text-align: center;
+}

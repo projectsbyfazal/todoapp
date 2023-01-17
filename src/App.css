@@ -1,0 +1,56 @@
+.container{
+  width: 400px;
+  margin: 50px auto 20px;
+}
+.container > h3{
+  text-align: center;
+  color: #fff;
+}
+.container img{
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+.form{
+  padding: 20px 0;
+  position: relative;
+}
+.form input{
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 17px;
+}
+.addButton, .updateButton{
+  position: absolute;
+  right: 12px;
+}
+.addButton{
+  top: 17px;
+  font-size: 35px;
+}
+.updateButton{
+  top: 24px;
+  font-size: 25px;
+}
+.add-item:hover{
+  color:#00f853;
+  cursor: pointer;
+}
+.clrbtn{
+  text-align: center;
+}
+.clear{
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+  .container{
+    width: 85%;
+  }
+}
